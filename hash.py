@@ -12,6 +12,8 @@ def main():
     hex_str = "".join(f"{ord(ch):02X}" for ch in password)
     print("Password in hex:", hex_str)
 
+    # some Ai (GPT)
+    
     # Each 3 hex digits = 1 pixel
     num_pixels = (len(hex_str) + 2) // 3  # round up
     width = num_pixels
