@@ -24,6 +24,8 @@ int main() {
 
     printf("Password in hex: %s\n", hexStr);
 
+    // Some Ai (GPT)
+    
     // Each 3 hex digits = 1 pixel
     int numPixels = (strlen(hexStr) + 2) / 3; // round up
     int width = numPixels;
